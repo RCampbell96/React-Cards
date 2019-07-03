@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.card {
+  width: 20rem;
+  display: inline-flex;
+  padding: 20px;
+  margin: 35px;
+  min-height: 20rem;
+  flex-basis: auto;
+}
+
+button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: transparent;
+  align-self: center;
+}
+
