@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <h1>Ghilbi Film Locations</h1>
+        <h1>Ghibli Film Locations</h1>
         
         {this.state.locations.map((value, key) => (
           <Card className={value.name}>
