@@ -28,9 +28,9 @@ class App extends Component {
         <h1>Ghibli Film Locations</h1>
         
         {this.state.locations.map((value, key) => (
-          <Card className={value.name}>
+          <Card className={value.name} key={value.id}>
             <Card.Body >
-              <Card.Title className="title">Locations: {key.name}{value.name}</Card.Title>
+              <Card.Title className="title">Locations: {value.name}</Card.Title>
               <Card.Text>
 
                 <br />
